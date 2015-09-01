@@ -164,12 +164,21 @@ pre .javascript .function {
   width: 60%;
   min-width: 18rem;
 }
+#ds-thread #ds-reset .ds-powered-by a {
+  display: none;
+}
+#content nav a {
+  color: #6495ed;
+}
+#content nav a:hover {
+  color: #87cefa;
+}
 #banner {
   overflow: auto;
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 #banner #site-title a {
-  color: #add8e6;
+  color: #6495ed;
 }
 #banner #site-subtitle {
   display: inline-block;
@@ -186,7 +195,7 @@ pre .javascript .function {
   font-size: small;
 }
 #content {
-  font-size: small;
+  font-size: medium;
   text-autospace: ideograph-alpha;
 }
 #content .meta .article-title {
@@ -195,8 +204,8 @@ pre .javascript .function {
   font-weight: 500;
   margin-bottom: 0;
 }
-#content .meta .article-date {
-  color: #a9a9a9;
+#content .meta .article-date a {
+  color: #6495ed;
 }
 #content .extra {
   float: right;
@@ -215,7 +224,8 @@ pre .javascript .function {
 #content .article-content {
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
   line-height: 1.5;
-  padding-top: 0.5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 #content .article-content h2 {
   font-weight: lighter;
@@ -228,10 +238,10 @@ pre .javascript .function {
 #content .article-content a {
   padding-left: 0.3rem;
   padding-right: 0.3rem;
-  color: #495a80;
+  color: #6495ed;
 }
 #content .article-content a:hover {
-  color: #6495ed;
+  color: #87cefa;
 }
 #content .article-content a img {
   margin-left: -0.3rem;
