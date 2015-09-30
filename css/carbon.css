@@ -198,6 +198,9 @@ pre .javascript .function {
   font-size: medium;
   text-autospace: ideograph-alpha;
 }
+#content .meta {
+  font-size: small;
+}
 #content .meta .article-title {
   font-family: 'Open Sans', 'Droid Sans', 'Source Sans Pro', 'Helvetica Neue', 'Segoe UI', Verdana, Tahoma, Arial, 'Hiragino Sans GB', 'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif;
   text-transform: uppercase;
