@@ -215,7 +215,9 @@ pre .javascript .function {
   padding-left: 0.5rem;
   display: none;
 }
-#content .abstract-list,
+#content .abstract-list {
+  -webkit-column-width: 2.5in;
+}
 #content .excerpt,
 #content .archive-list {
   padding: 0;
